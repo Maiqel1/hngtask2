@@ -1,0 +1,103 @@
+.header{
+    background-image: url(images/img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 100%;
+}
+
+.header p:nth-child(1){
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.header p:nth-child(2){
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 60px;
+}
+
+.header p:nth-child(3){
+    font-family: myraid pro regular;
+    font-size: 30px;
+}
+
+.header p{
+    line-height:40px;
+   
+}
+
+.me{
+    background-image: url(images/me.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    background-position: center center;
+}
+
+.aboutMe p{
+    margin-top: 50px;
+}
+
+.lang1{
+    background-image: url(images/htm.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    background-position: center center;
+}
+.lang2{
+    background-image: url(images/css.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    background-position: center center;
+}
+.lang3{
+    background-image: url(images/js.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    background-position: center center;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 228, 228);
+} 
+
+
+.social-icons a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px;
+    border-radius: 50%;
+}
+
+.social-icons{
+    display: flex;
+}
+
+
+.whatsapp{
+    width: 40px;
+    height: 40px;
+}
+
+.twitter{
+    width: 40px;
+    height: 40px;   
+}
+
+.linkedin{
+    width: 40px;
+    height: 40px;   
+}
